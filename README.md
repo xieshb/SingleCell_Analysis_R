@@ -1,5 +1,5 @@
 # SingleCell_Analysis_R
-R script for 10X SingleCell data analysed by Seurat.
+R script for 10X SingleCell data analyzed by Seurat.
 
 Seurat_Single_Sample is used for analysing single data from 10X cellranger.
 
