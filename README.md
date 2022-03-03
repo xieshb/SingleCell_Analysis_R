@@ -1,5 +1,5 @@
 # SingleCell_Analysis_R
-R script for 10X SingleCell data analyzed by Seurat.
+R script for 10X SingleCell data analyzed by Seurat(include: QC、PCA、TSNE、UMAP、CLuster、FindAllMakers、etc).
 
 Seurat_Single_Sample is used for analysing single data from 10X cellranger.
 
@@ -7,6 +7,7 @@ Seurat_multi_Sample is used for integrating the results from Seurat_Single_Sampl
 
 
 Usage:
+      
       Rscript Seurat_Single_Sample.R 10X_matrix_dir output_dir  Sample_name
 
       Rscript Seurat_multi_Sample.R A.rds,B.rds,C.rds,D.rds  output_dir
